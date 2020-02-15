@@ -1,9 +1,9 @@
 #!usr/bin/env ppython3
 from gpiozero import LED
-from  time import sleep
 red = LED(22)
-while True:
-    red.blink()
-    sleep(5)
+amber = LED(27)
+green = LED(17)
 
-
+red.blink(1,1)
+amber.blink(2, 2)
+green.blink(3, 3)
