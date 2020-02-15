@@ -1,7 +1,7 @@
-#!usr/bin/env python3
+#!usr/bin/env ppython3
 from gpiozero import LED
 red = LED(22)
-
-red.blink()
+while True:
+    red.blink()
 
 
