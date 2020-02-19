@@ -8,5 +8,5 @@ app = App()
 
 Text(app, "Red")
 PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off)
+PushButton(app, command=lights.red.off, text="off")
 app.display()
