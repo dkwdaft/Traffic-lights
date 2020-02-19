@@ -1,9 +1,13 @@
-#!usr/bin/env ppython3
+#!usr/bin/env python3
 from gpiozero import LED
+from time import sleep
 red = LED(22)
 amber = LED(27)
 green = LED(17)
-while True:
-    red.blink(1,1)
-    amber.blink(2, 2)
-    green.blink(3, 3)
+
+red.om()
+sleep(1)
+amber.on()
+sleep(1)
+green.on()
+sleep(1)
