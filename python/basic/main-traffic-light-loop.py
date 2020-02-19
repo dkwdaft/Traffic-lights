@@ -30,7 +30,7 @@ while loop == False:
     if "quit" or "QUIT" in loop:
         quit()
     else:
-    loop = True
+        loop = True
 
     while loop == True:
         trafic_lights_loop()
