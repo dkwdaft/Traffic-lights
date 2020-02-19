@@ -5,7 +5,7 @@ red = LED(22)
 amber = LED(27)
 green = LED(17)
 
-red.om()
+red.on()
 sleep(1)
 amber.on()
 sleep(1)
