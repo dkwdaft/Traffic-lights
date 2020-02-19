@@ -24,12 +24,15 @@ def trafic_lights_loop():
 
 
 
-while True:
+
+while loop == False:
     loop = input("Press enter to start traffic lights loop")
+    if "quit" or "QUIT" in loop:
+        quit()
+    else:
     loop = True
 
     while loop == True:
         trafic_lights_loop()
         loop = False
-
 
