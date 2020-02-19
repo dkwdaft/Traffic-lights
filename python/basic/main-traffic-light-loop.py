@@ -23,7 +23,7 @@ def trafic_lights_loop():
     green.on()
 
 
-
+loop = input("Press enter to start traffic lights loop")
 
 while loop == False:
     loop = input("Press enter to start traffic lights loop")
