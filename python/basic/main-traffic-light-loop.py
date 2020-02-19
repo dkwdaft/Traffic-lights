@@ -23,14 +23,11 @@ def trafic_lights_loop():
     green.on()
 
 
-loop = input("Press enter to start traffic lights loop")
+
 
 while loop == False:
     loop = input("Press enter to start traffic lights loop")
-    if "quit" or "QUIT" in loop:
-        quit()
-    else:
-        loop = True
+    loop = True
 
     while loop == True:
         trafic_lights_loop()
