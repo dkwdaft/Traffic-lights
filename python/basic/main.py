@@ -11,6 +11,12 @@ amber.on()
 sleep(1)
 green.on()
 sleep(1)
+
+green.off()
+amber.off()
+red.off()
+sleep(1)
+
 print("turning the lights on and off in sequence:")
 red.on()
 sleep(1)
