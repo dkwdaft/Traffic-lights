@@ -42,7 +42,6 @@ PushButton(app, command=lights.on, text="on", grid=[1,3])
 PushButton(app, command=lights.off, text="off", grid=[2,3])
 PushButton(app, command=lights.blink, text="blink", grid=[3,3])
 
-Text(app, "Traffic light sequence", grid=[2,4])
-PushButton(app, command=trafic_lights_loop,text="run", grid=[2,5])
+
 
 app.display()
