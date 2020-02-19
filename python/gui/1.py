@@ -17,6 +17,8 @@ PushButton(app, command=lights.amber.on, text="on", grid=[1,1])
 PushButton(app, command=lights.amber.off,text="off", grid=[2, 1])
 PushButton(app, command=lights.amber.blink, text="blink", grid=[3, 1])
 
+Text(app, "Green", grid=[0, 1])
+PushButton(app, command=lights.green.on, text="on")
 
 
 app.display()
