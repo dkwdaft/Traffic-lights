@@ -5,22 +5,21 @@ amber = LED(27)
 green = LED(17)
 
 def trafic_lights_loop():
-    green.on()
-    sleep(0.5)
     green.off()
     sleep(0.5)
     amber.on()
     sleep(0.5)
     amber.off()
-    sleep(0.5)
     red.on()
-    sleep(0.5)
+    sleep(30)
     amber.on()
-    sleep(0.5)
+    sleep(2)
     red.off()
     amber.off()
-    sleep(0.5)
     green.on()
+
+
+
 
 
 loop = False
