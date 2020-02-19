@@ -17,7 +17,7 @@ amber.off()
 red.off()
 sleep(1)
 
-print("turning the lights on and off in sequence:")
+print("turning the lights on and off in sequence in a loop:")
 red.on()
 sleep(1)
 amber.on()
@@ -29,3 +29,6 @@ sleep(1)
 amber.off()
 sleep(1)
 green.off()
+
+sleep(1)
+
