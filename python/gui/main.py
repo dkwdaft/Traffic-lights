@@ -35,7 +35,7 @@ Text(app, "Green", grid=[0, 2])
 PushButton(app, command=lights.green.on, text="on", grid=[1,2])
 PushButton(app, command=lights.green.off, text="off", grid=[2,2])
 PushButton(app, command=lights.green.blink, text="blink", grid=[3,2])
-#Create button grid for All light control
+#Creates button grid for All light control
 Text(app, "All", grid=[0,3])
 PushButton(app, command=lights.on, text="on", grid=[1,3])
 PushButton(app, command=lights.off, text="off", grid=[2,3])
