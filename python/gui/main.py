@@ -16,6 +16,7 @@ def traffic_lights_loop():
     sleep(2)
     lights.red.off()
     lights.amber.off()
+    lights.green.on()
 
 #Sets app Title bar labelAnd sets the  layout type
 app = App("Traffic Lights controller", layout="grid")
@@ -46,7 +47,7 @@ Text(app, "Traffic light sequence", grid=[2,4])
 PushButton(app,text="run traffic lights_loop", command=traffic_lights_loop, grid=[2,6])
 #Creates button And label grid For the clear traffic light sequence functions
 Text(app,"reset lights", grid=[3,6])
-PushButton(app, command=lights.off, text="clear lights", grid=[3,5])
+PushButton(app, command=lights.off, text="clear lights", grid=[3,5)
 
 #And finally sets The app to display on the screen
 app.display()
