@@ -38,16 +38,11 @@ PushButton(app, command=lights.green.off, text="off", grid=[2,2])
 PushButton(app, command=lights.green.blink, text="blink", grid=[3,2])
 #Creates button grid for All light control
 Text(app, "All", grid=[0,3])
-PushButton(app, command=lights.on, text="on", grid=[1,3])
-PushButton(app, command=lights.off, text="off", grid=[2,3])
-PushButton(app, command=lights.blink, text="blink", grid=[3,3])
-#Creates button And label grid For the traffic light sequence functions
-Text(app, "Traffic light sequence", grid=[2,4])
-PushButton(app, command=trafic_lights_loop, text="run loop", grid=[2, 5])
-
+sxxuence", grid=[2,4])
+PushButton(app, command=trafic_
 #Creates button And label grid For the clear traffic light sequence functions
-Text("reset lights", grid=[3, 6])
-PushButton(app, command=lights.off, text="clear lights", grid=[3,5]) 
+Text("reset lights", grid=[3,6])
+PushButton(app, command=lights.off, text="clear lights", grid=[3,5])
 
 #And finally sets The app to display on the screen
 app.display()
