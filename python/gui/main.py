@@ -43,7 +43,7 @@ PushButton(app, command=lights.blink, text="blink", grid=[3,3])
 #Creates button And label gridlights_loop, text="run loop", grid=[2, 5])
  #For the traffic light sequence functions
 Text(app, "Traffic light sequence", grid=[2,4])
-PushButton(app,text="run traffic lights_loop", command=traffic_lights_loop(), grid=[2,6])
+PushButton(app,text="run traffic lights_loop", command=traffic_lights_loop, grid=[2,6])
 #Creates button And label grid For the clear traffic light sequence functions
 Text(app,"reset lights", grid=[3,6])
 PushButton(app, command=lights.off, text="clear lights", grid=[3,5])
