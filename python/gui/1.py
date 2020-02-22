@@ -1,5 +1,5 @@
 from guizero import App, Text, PushButton
-from gpiozero import TrafficLights, LED
+from gpiozero import TrafficLights
 from time import sleep
 red = LED(22)
 amber = LED(27)
@@ -7,18 +7,18 @@ green = LED(17)
 
 lights = TrafficLights(22, 27, 17)
 def trafic_lights_loop():
-    green.off()
+    lights.green.off()
     sleep(0.5)
-    amber.on()
+    lights.amber.on()
     sleep(0.5)
-    amber.off()
-    red.on()
+    lights.amber.off()
+    lights.red.on()
     sleep(0.5)
-    amber.on()
+    lights.amber.on()
     sleep(2)
-    red.off()
-    amber.off()
-    green.on()
+    lights.red.off()
+    lights.amber.off()
+    lights.green.on()
 
 app = App("Traffic Lights controller", layout="grid")
 
