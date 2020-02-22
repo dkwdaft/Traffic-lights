@@ -17,7 +17,7 @@ def trafic_lights_loop():
     lights.red.off()
     lights.amber.off()
     lights.green.on()
-#Sets app Title bar label
+#Sets app Title bar labelAnd sets the  layout type
 app = App("Traffic Lights controller", layout="grid")
 #Creates button grid for Individual red light controller
 Text(app, "Red", grid=[0, 0])
