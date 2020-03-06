@@ -17,7 +17,7 @@ def trafic_lights_loop():
     red.off()
     amber.off()
     green.on()
-    sleep(5)
+    
 
 
 
@@ -31,5 +31,7 @@ while loop == False:
 
     while loop == True:
         trafic_lights_loop()
+        sleep(10)
+        green.off
         loop = False
 
