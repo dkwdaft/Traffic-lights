@@ -17,8 +17,7 @@ amber.off()
 red.off()
 sleep(1)
 i = 1
-print("turning the lights on and off in sequence in a loop:")
-for i in range():
+print("turning the lights on and off in sequence once.")
     red.on()
     sleep(1)
     amber.on()
