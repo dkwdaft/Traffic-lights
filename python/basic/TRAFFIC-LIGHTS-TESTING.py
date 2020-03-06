@@ -18,7 +18,8 @@ red.off()
 sleep(1)
 
 print("turning the lights on and off in sequence in a loop:")
-while True:
+for 1 in range():
+    pass:
     red.on()
     sleep(1)
     amber.on()
