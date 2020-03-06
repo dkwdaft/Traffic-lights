@@ -27,9 +27,10 @@ loop = False
 
 while loop == False:
     loop = input("Press enter to start traffic lights loop")
-    loop = True
+    if loop == "":
+     loop = True
 
-    while loop == True:
+while loop == True:
         red.off
         amber.off
         green.off
