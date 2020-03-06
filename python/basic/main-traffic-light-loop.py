@@ -30,6 +30,9 @@ while loop == False:
     loop = True
 
     while loop == True:
+        red.off
+        amber.off
+        green.off
         trafic_lights_loop()
         sleep(10)
         green.off
