@@ -17,7 +17,7 @@ def trafic_lights_loop():
     red.off()
     amber.off()
     green.on()
-    sleep(10)
+    sleep(5)
 
 
 
